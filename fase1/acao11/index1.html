@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+		<link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/style.css' type='text/css' />
+
+		<script type='text/javascript' src='../../assets/js/jquery.js'></script>
+		<script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+		<script src="https://use.fontawesome.com/6963733f46.js"></script>
+		<script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+		<link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css' />
+		<script src="../../assets/js/sweetalert.min.js"></script>
+		<script type='text/javascript' src='../../assets/js/script.js'></script>
+		<script src="../../assets/js/internas.js"></script>
+		<script>
+			$(document).ready(function () {
+				iniciarCompletar();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="header-interna">
+				<h1 class="tituloScorm"></h1>
+			</header><!-- header-interna -->
+
+			<section class="corpo-interna">
+				<div class="titulo-topo"></div>
+				<img src="../../assets/images/Ling_C1_H1_EM_m001.jpg" alt="" class="img-responsive">
+				<h6 class="text-center">www.cedilhatil.blogspot.com</h6>
+				<br />
+				<div class="conteudo">
+					<div id="frame" role="content">
+						<p>No mapa acima, é possível observar todos os países onde se fala a Língua Portuguesa atualmente. Todos, consequência da colonização de Portugal nessas regiões no período conhecido como Expansão Marítima Europeia (iniciado em meados do século XVI). A língua, como um organismo vivo, expressa-se diferentemente em cada uma dessas localidades, dando origem a variações geográficas que são sentidas nos diferentes sotaques e palavras correspondentes a um mesmo significado (como “farol” e “sinaleiro” para “sinal de trânsito”).</p>
+						<br />
+						<h4 class="question" id="question"></h4>Com base nessas informações, preencha as lacunas com as palavras correspondentes:</h4>
+						<br />
+						<p>Na América, o país que fala a língua portuguesa é o <input type="text" name="resposta1" class="resposta" data-correto="Brasil">, com mais de 200 milhões de falantes da língua. Na Europa, destaca-se <input type="text" name="resposta2" class="resposta" data-correto="Portugal">, a pátria onde nasceu a língua falada por quase 300 milhões de pessoas ao redor do mundo. No continente africano, por exemplo, são alguns os países onde a língua portuguesa é falada: <input type="text" name="resposta3" class="resposta large" data-correto="Guiné-Bissau">, <input type="text" name="resposta4" class="resposta" data-correto="Moçambique">, <input type="text" name="resposta5" class="resposta" data-correto="Angola"> e <input type="text" name="resposta6" class="resposta" data-correto="São Tomé"> e <input type="text" name="resposta7" class="resposta" data-correto="Príncipe">. Até na Ásia encontramos falantes da língua portuguesa: em <input type="text" name="resposta8" class="resposta" data-correto="Goa"> (na Índia), <input type="text" name="resposta9" class="resposta" data-correto="Macau"> (na China) e também em um outro país pequenino, chamado <input type="text" name="resposta11" class="resposta" data-correto="Timor-Leste">.</p>
+						<br />
+						<br />
+						<button type="button" class="btn-geral btn-verde" id="submitbutton" onclick="responderCompletar()">Responder</button>						
+					</div><!-- #frame -->
+
+					<ul class="btns-footer">
+						<li><a class="btn-geral btn-laranja" onclick="parent.iniciarAcao(1, 10, true)">Voltar</a></li>
+						<li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+					</ul><!-- btns-footer -->
+				</div><!-- conteudo -->
+			</section><!-- corpo-interna -->
+		</div><!-- container -->
+	</body>
+</html>

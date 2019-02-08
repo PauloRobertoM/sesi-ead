@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+        <link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css'/>
+        <link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css'/>
+        <link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css'/>
+        <link rel='stylesheet' href='../../assets/css/style.css' type='text/css'/>
+
+        <script type='text/javascript' src='../../assets/js/jquery.js'></script>
+        <script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+        <script src="https://use.fontawesome.com/6963733f46.js"></script>
+        <script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+        <link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css'/>
+        <script src="../../assets/js/sweetalert.min.js"></script>
+        <script type='text/javascript' src='../../assets/js/script.js'></script>
+        <script src="../../assets/js/internas.js"></script>
+        <script>
+            $(document).ready(function(){
+                iniciarPergunta();
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header-interna">
+                <h1 class="tituloScorm"></h1>
+            </header><!-- header-interna -->
+
+            <section class="corpo-interna">
+                <div class="titulo-topo"></div>
+                <div class="conteudo">
+                    <div id="frame" role="content">
+                        <img src="../../assets/images/002_EM_LIN_C1_H1_SA_01.jpg" alt="" style="width: 50%; margin: 0 auto;" class="img-responsive">
+                        <h6 class="text-center">Ernesto Reghran/Pulsar Imagens</h6>
+                        <br/>
+                        <p>Todo o texto é composto por uma série de elementos considerados “fatores de textualidade”, os quais nem sempre aparecem sob a forma de linguagem verbal, como se pode observar na imagem acima. Torna-se imprescindível, portanto, que qualquer texto seja coerente (com ideias articuladas e harmoniosas entre si), coeso (frases que se intercalem e mantenham-se firmes), além de todo texto possuir, em si, uma determinada finalidade. Não obstante, há também os fatores de informatividade, intertextualidade, situacionalidade e aceitabilidade. Isto significa que, não importa o quão simples seja a comunicação, ela está imbuída destes fatores para compor um texto. Dessa forma, identifique e assinale a alternativa que reúne as afirmações corretas acerca dos diferentes fatores de textualidade:</p>
+                        <br/>
+                        <p>I – Coerência é responsável pela articulação das ideias em um todo harmônico e organizado;</p>
+                        <p>II – Coesão é aquilo que permite a articulação dos elementos linguísticos (palavras e sentenças), por meio de recursos de articulação textual;</p>
+                        <p>III – Para ser compreendido, um texto deve apresentar um número suficiente e relevante de dados e informações. Trata-se da Intencionalidade;</p>
+                        <p>IV – Informatividade é quando os textos estabelecem, uns com os outros, uma rede de relações que impede que sejam lidos isoladamente. Os textos podem dialogar uns com os outros, formando entre si uma rede: às vezes, temas se repetem, pontos de vista são confirmados ou refutados, passagens de texto são mencionadas ou evocadas em outras produções.</p>
+                        <h4 class="question" id="question">Estão corretas as afirmações:</h4>
+                        <ul id="choice-block" class="quiz-cemporcento">
+                            <li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">Apenas I</li>
+                            <li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">Apenas II</li>
+                            <li class="choice choice-box alternativas" data-correto="1" onclick="selecionarAlternativa($(this))">I e II</li>
+                            <li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">I e III</li>
+                            <li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">II e IV</li>
+                        </ul><!-- quiz-cemporcento -->
+                        <button type="button" class="btn-geral btn-verde" id="submitbutton" onclick="responderPergunta()">Responder</button>
+                    </div><!-- #frame -->
+
+                    <ul class="btns-footer">
+                        <li><a class="btn-geral btn-laranja" onclick="parent.iniciarAcao(1, 4, true)">Voltar</a></li>
+                        <li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+                    </ul><!-- btns-footer -->
+                </div><!-- conteudo -->
+            </section><!-- corpo-interna -->
+        </div><!-- container -->
+    </body>
+</html>

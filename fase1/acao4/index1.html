@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+        <link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/style.css' type='text/css' />
+
+        <script type='text/javascript' src='../../assets/js/jquery.js'></script>
+        <script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+        <script src="https://use.fontawesome.com/6963733f46.js"></script>
+        <script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+        <link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css' />
+        <script src="../../assets/js/sweetalert.min.js"></script>
+        <script type='text/javascript' src='../../assets/js/script.js'></script>
+        <script src="../../assets/js/internas.js"></script>
+        <script>
+            $(document).ready(function () {
+                iniciarPerguntaVerdadeiroOuFalso();
+            });
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header-interna">
+                <h1 class="tituloScorm"></h1>
+            </header><!-- header-interna -->
+
+            <section class="corpo-interna">
+                <div class="titulo-topo"></div>
+                <div class="conteudo">
+                    <div id="frame" role="content">
+                        <img src="../../assets/images/002_EM_LIN_C1_H1_SA_02.jpg" alt="" class="img-responsive">
+                        <h6 class="text-center">Alex Ruhl/Shutterstock</h6>
+                        <br />
+                        <p>Conforme vemos na imagem, duas pessoas se comunicam por um aplicativo de smartphone bastante conhecido atualmente. Muito se comenta, em se tratando de linguagem de internet, sobre o uso “correto” da linguagem (ou seja, o uso de acordo com os padrões da norma culta da Língua), no entanto, sabe-se da variedade de formas de utilização da Língua cotidianamente. O que importa, nesses casos, é o valor comunicativo do texto. Por isso, a relação entre escrita, norma culta e comunicação é muito mais sutil e complexa do que se pode imaginar.</p>
+                        <h4 class="question" id="question">Assim sendo, classifique cada proposição a seguir como verdadeira (V) ou falsa (F):</h4>
+                        
+                        <ul class="quiz-vf">
+                            <li class="choice choice-box" data-index="1">Todo enunciado (texto falado ou escrito) é produzido em uma situação de comunicação específica, no contexto de determinado gênero textual.</li>
+                            <li class="choice choice-box" data-index="0">Discurso é o enunciado ou texto produzido em uma situação de
+                            enunciação e determinado pelas condições históricas e sociais.</li>
+                            <li class="choice choice-box" data-index="1">Os textos nem sempre são sempre produzidos por um emissor
+                            (enunciador), que, ao dizer algo, não necessariamente expressa sua visão demundo, sem haver determinada intencionalidade inicial.</li>
+                            <li class="choice choice-box" data-index="0">EOs textos são destinados a um público receptor/interlocutor (ouvinte ou leitor/ internauta) e estão situados em um tempo e em um espaço específicos. O processo de comunicação só pode acontecer se os textos estiverem adequados às exigências dos contextos de produção.</li>
+                            <li class="choice choice-box" data-index="0">O desafio de interpretar um texto é pautado apenas naquilo que está explícito, ou seja, aquilo que o autor deixou claro para o leitor (receptor).</li>
+                        </ul>
+                        <ul id="choice-block-vf">
+                            <li data-resposta="V" class="alternativas alternativa-1">
+                                <input type="radio" name="q1" id="v1" value="F" />
+                                <label for="v1">F</label>
+                                <input type="radio" name="q1" id="v2" value="V" />
+                                <label for="v2">V</label>
+                            </li>
+                            <li data-resposta="V" class="alternativas alternativa-2">
+                                <input type="radio" name="q2" id="v3" value="F" />
+                                <label for="v3">F</label>
+                                <input type="radio" name="q2" id="v4" value="V" />
+                                <label for="v4">V</label>
+                            </li>
+                            <li data-resposta="F" class="alternativas alternativa-3">
+                                <input type="radio" name="q3" id="v5" value="F" />
+                                <label for="v5">F</label>
+                                <input type="radio" name="q3" id="v6" value="V" />
+                                <label for="v6">V</label>
+                            </li>
+                            <li data-resposta="V" class="alternativas alternativa-4">
+                                <input type="radio" name="q4" id="v7" value="F" />
+                                <label for="v7">F</label>
+                                <input type="radio" name="q4" id="v8" value="V" />
+                                <label for="v8">V</label>
+                            </li>
+                            <li data-resposta="F" class="alternativas alternativa-5">
+                                <input type="radio" name="15" id="v9" value="F" />
+                                <label for="v9">F</label>
+                                <input type="radio" name="15" id="v10" value="V" />
+                                <label for="v10">V</label>
+                            </li>
+                        </ul><!-- choice-block-vf -->
+
+                        <button type="button" class="btn-geral btn-verde" id="submitbutton" onclick="responderPerguntaVerdadeiroOuFalso()">Responder</button>
+                    </div><!-- #frame -->
+
+                    <ul class="btns-footer">
+                        <li><a class="btn-geral btn-laranja" onclick="parent.iniciarAcao(1, 3, true)">Voltar</a></li>
+                        <li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+                    </ul>
+                </div><!-- btns-footer -->
+            </section><!-- corpo-interna -->
+        </div><!-- container -->
+    </body>
+</html>

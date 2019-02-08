@@ -1,0 +1,622 @@
+* {
+    outline: none;
+}
+
+a {
+    text-decoration: none !important;
+    cursor: pointer !important;
+    transition: 1s;
+}
+
+p {
+    line-height: 1.5;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 950px !important;
+    width: 100%;
+}
+
+/* INDEX */
+.header-index {
+    background: url('../images/topo-index.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 120px;
+    text-align: right;
+    padding: 30px;
+}
+
+.header-index h1 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.header-index h2 {
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.corpo-index {
+    /* background: url('../images/background-index.jpg') no-repeat;
+    background-size: cover;
+    background-position: center; */
+    width: 100%;
+    height: 480px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.img-background-index {
+    position: relative;
+    margin-top: -502px;
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.descricao-index {
+    background: url('../images/background-descricao.png') no-repeat;
+    width: 235px;
+    height: 194px;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 50px 10px 5px;
+}
+
+.descricao-index p {
+    font-size: 12px;
+    color: #fff;
+    text-align: right;
+    margin: 0;
+}
+
+.seta-index {
+    text-align: center;
+    background: url('../images/background-seta.png') no-repeat;
+    width: 203px;
+    height: 146px;
+    padding-left: 80px;
+    margin-bottom: 30px;
+}
+
+.seta-index h2 {
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #3b9e86;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.seta-index p {
+    font-size: 12px;
+    font-weight: 600;
+    color: #3b9e86;
+    text-transform: uppercase;
+    padding: 3px 10px;
+    background: #fff;
+}
+
+/* INTERNA */
+.header-interna {
+    background: url('../images/topo-interna.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 45px;
+    text-align: right;
+    padding: 10px 30px;
+}
+
+.header-interna h1 {
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 0;
+}
+
+.corpo-interna {
+    background: url('../images/background-interna.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 555px;
+    padding: 30px 110px 50px;
+}
+
+.corpo-interna .titulo-topo ul {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.corpo-interna .titulo-topo li {
+    margin: 0 20px;
+}
+
+.corpo-interna .titulo-topo a {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 7px 15px;
+    border: 1px solid #c87c2a;
+    border-radius: 50px;
+    -webkit-box-shadow: 0px 2px 10px 0px rgba(179, 179, 179, 1);
+    -moz-box-shadow: 0px 2px 10px 0px rgba(179, 179, 179, 1);
+    box-shadow: 0px 2px 10px 0px rgba(179, 179, 179, 1);
+}
+
+.corpo-interna h6 {
+    font-size: 11px;
+    font-weight: 600;
+    color: #2a2a2a;
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.corpo-interna h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2a2a2a;
+    margin: 0 0 20px;
+}
+
+.corpo-interna p {
+    font-size: 15px;
+    color: #2a2a2a;
+    text-align: justify;
+}
+   
+.corpo-interna p input {
+    width: 100px;
+    height: 30px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0 5px;
+}
+
+.corpo-interna p input.large{
+    width: 180px!important;
+}
+
+.corpo-interna p input.extraLarge{
+    width: 250px!important;
+}
+
+
+.corpo-interna textarea {
+    width: 100%;
+    height: 225px;
+    border: 1px solid #bfbfbf;
+    border-radius: 3px;
+    margin-bottom: 30px;
+}
+
+embed {
+    margin-bottom: 20px;
+}
+
+.btns>li {
+    height: 45px;
+}
+
+.btn-geral {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 30px;
+}
+
+.btn-laranja {
+    color: #fff;
+    background: #3b9e86;
+}
+
+.btn-rosa{
+
+     color: #fff;
+    background: #88066e;
+
+}
+
+.btn-rosa:hover{
+
+     color: #fff;
+    background: #88066e;
+
+}
+
+
+
+.btn-laranja:hover {
+    color: #fff;
+    background: #3b9e86;
+}
+
+.btn-amarelo {
+    color: #f07e03;
+    background: #fac800;
+}
+
+.btn-amarelo:hover {
+    color: #f07e03;
+    background: #fff;
+}
+
+.btn-verde {
+    color: #fff;
+    background: #30a607;
+    transition: 1s;
+    border: none;
+    border-radius: 5px;
+    display: table;
+    margin: 0 auto 50px;
+}
+
+.btn-verde:hover {
+    color: #fff;
+    background: #227405;
+}
+
+.btns-footer {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 60px 0 100px;
+}
+
+.quiz-cemporcento {
+    width: 100% !important;
+}
+
+img.img-campanha {
+    width: 40%;
+    margin: 0 auto;
+    display: block;
+}
+
+p.pager {
+    margin: 5px 0 5px;
+    font: bold 1em/1em;
+    color: #999;
+}
+
+img.question-image {
+    display: block;
+    max-width: 250px;
+    margin: 10px auto;
+    border: 1px solid #ccc;
+    width: 100%;
+    height: auto;
+}
+
+#choice-block {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    float: left;
+}
+
+#explanation {
+    margin: 0 auto;
+    padding: 20px;
+    width: 75%;
+}
+
+.choice-box {
+    font-size: 14px;
+    color: #000;
+    margin: 0 0 20px 0;
+    padding: 0 10px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #bfbfbf;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.itens-video {
+    text-align: center;
+    float: right !important;
+    width: 8%;
+}
+
+.itens-video li {
+    text-align: center;
+    margin: 0 0 20px 0;
+    height: 70px;
+    justify-content: center;
+}
+
+.itens-video .fa {
+    font-size: 34px;
+    color: #fac800;
+}
+
+.user_clicked {
+    background-color: #FFFF00 !important;
+}
+
+.correta {
+    background-color: #00FF00 !important;
+}
+
+.modal img {
+    width: 100%;
+}
+
+.ul-completo {
+    width: 100% !important;
+}
+
+.quiz-vf {
+    width: 82%;
+    float: left;
+}
+
+ul#choice-block-vf {
+    width: 17%;
+    float: right;
+}
+
+#choice-block-vf li {
+    height: 70px;
+    margin: 0 0 20px 0;
+}
+
+#choice-block-vf input[type="radio"] {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
+#choice-block-vf label {
+    font-size: 31px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    background: #737373;
+    transition: 1s;
+    cursor: pointer;
+    padding-top: 13px;
+    width: 45%;
+    height: 70px;
+    margin: 0;
+    border-radius: 3px;
+}
+
+#choice-block-vf label:hover {
+    background: #000;
+}
+
+#choice-block-vf input[type="radio"]:checked+label {
+    background: #f07e03;
+}
+
+.tela09 .choice-box {
+    font-size: 12px;
+    height: 110px;
+}
+
+.tela09 #choice-block-vf li {
+    height: 110px;
+}
+
+.tela09 #choice-block-vf label {
+    padding-top: 30px;
+    height: 110px;
+}
+
+/* --- MOBILE --- */
+@media (max-width: 767px) {
+    .container {
+        padding: 0 !important;
+    }
+
+    .header-index {
+        background-position: left;
+        height: 65px;
+        padding: 10px;
+    }
+
+    .header-index h1 {
+        font-size: 18px;
+    }
+
+    .header-index h2 {
+        font-size: 14px;
+    }
+
+    .corpo-index {
+        height: 600px;
+        display: block;
+        padding-top: 30px;
+    }
+
+    .img-background-index {
+        margin-top: -622px;
+        height: 600px;
+    }
+
+    .descricao-index {
+        padding: 0 50px 20px 5px;
+    }
+
+    ul.btns {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .seta-index {
+        margin-bottom: 0;
+        float: right;
+        margin-top: 20px;
+    }
+
+    .header-interna {
+        background-position: left;
+        height: 40px;
+        text-align: right;
+        padding: 10px;
+    }
+
+    .header-interna h1 {
+        font-size: 16px;
+    }
+
+    .corpo-interna {
+        height: 600px;
+        padding: 30px 10px 50px;
+    }
+
+    .corpo-interna h4 {
+        font-size: 14px;
+        margin: 10px 0 20px;
+    }
+
+    .titulo-topo h1 {
+        font-size: 30px;
+    }
+
+    embed {
+        border: 5px solid #aaa;
+        height: 168px;
+    }
+
+    .next-prev a,
+    .titulo-topo a {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    .next-prev .fa-chevron-right {
+        margin-left: 0;
+    }
+
+    .next-prev .fa-chevron-left {
+        margin-right: 0;
+    }
+
+    img.img-campanha {
+        width: 100%;
+    }
+
+    .next-prev {
+        margin-bottom: 50px;
+    }
+
+    #choice-block {
+        width: 75%;
+    }
+
+    .choice-box {
+        font-size: 10px;
+        height: 90px;
+    }
+
+    #choice-block-vf li {
+        height: 90px;
+    }
+
+    .itens-video {
+        width: 20%;
+    }
+
+    .itens-video i.fa.fa-youtube-play {
+        font-size: 24px;
+    }
+
+    .itens-video .choice-box {
+        padding: 4px 0 0 !important;
+        height: 45px !important;
+    }
+
+    .btn-verde {
+        width: 100%;
+        text-align: center;
+    }
+
+    .quiz-vf {
+        width: 75%;
+    }
+
+    ul#choice-block-vf {
+        width: 25%;
+    }
+
+    #choice-block-vf label {
+        width: 43%;
+        height: 90px;
+        padding-top: 20px;
+    }
+
+    #frame img {
+        width: 100% !important;
+    }
+
+    .corpo-interna p {
+        font-size: 14px;
+    }
+
+    .tela09 .choice-box {
+        font-size: 10px;
+        height: 190px;
+    }
+
+    .tela09 #choice-block-vf li {
+        height: 190px;
+    }
+
+    .tela09 #choice-block-vf label {
+        padding-top: 75px;
+        height: 190px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+.correto {
+    border: 1px solid #22ff5e !important;
+}
+
+.incorreto {
+    border: 1px solid #f00 !important;
+}
+
+.selecionado {
+    background-color: rgb(218, 218, 218);
+}
+
+.correto-bg {
+    background-color: rgb(53, 189, 11) !important;
+}

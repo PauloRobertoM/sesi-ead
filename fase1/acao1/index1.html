@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+		<link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/style.css' type='text/css' />
+
+		<script type='text/javascript' src='../../assets/js/jquery.js'></script>
+		<script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+		<script src="https://use.fontawesome.com/6963733f46.js"></script>
+		<script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+		<link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css' />
+		<script src="../../assets/js/sweetalert.min.js"></script>
+		<script type='text/javascript' src='../../assets/js/script.js'></script>
+		<script src="../../assets/js/internas.js"></script>
+		<script>
+			$(document).ready(function () {
+				iniciarPlayVideo();
+				playVideo('video1', 1);
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="header-interna">
+				<h1 class="tituloScorm"></h1>
+			</header><!-- header-interna -->
+
+			<section class="corpo-interna">
+				<div class="titulo-topo"></div>
+
+				<video id="video1" width="100%" height="420" controls>
+					<source src="../../assets/videos/video.mp4" type="video/mp4">
+				</video>
+
+				<ul class="btns-footer">
+					<li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+				</ul><!-- btns-footer -->
+			</section><!-- corpo-interna -->
+		</div><!-- container -->
+	</body>
+</html>

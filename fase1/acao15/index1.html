@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+        <title></title>
+
+        <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+        <link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css' />
+        <link rel='stylesheet' href='../../assets/css/style.css' type='text/css' />
+
+		<script type='text/javascript' src='../../assets/js/jquery.js'></script>
+		<script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+		<script src="https://use.fontawesome.com/6963733f46.js"></script>
+		<script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+		<link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css' />
+		<script src="../../assets/js/sweetalert.min.js"></script>
+		<script type='text/javascript' src='../../assets/js/script.js'></script>
+		<script src="../../assets/js/internas.js"></script>
+		<script>
+			$(document).ready(function(){
+				iniciarPlayVideo();
+				playVideo('video1', 1);
+                iniciarAlbum();
+			});
+		</script>
+    </head>
+
+    <body>
+        <div class="container">
+            <header class="header-interna">
+				<h1 class="tituloScorm"></h1>
+            </header><!-- header-interna -->
+
+			<section class="corpo-interna">
+				<div class="titulo-topo"></div>
+				<video id="video1" width="100%" height="420" controls>
+					<source src="../../assets/videos/002_EM_LIN_C1_H1_SA_11.mp4" type="video/mp4">
+				</video>
+
+				<div class="conteudo">
+					<div id="frame" role="content">
+						<br />
+						<p>Discutimos até então sobre a diversidade que cerca a Língua Portuguesa. Refletimos acerca das variações regionais e nacionais, do processo histórico e dos diferentes tipos de escrita e significação do mundo através do uso do idioma.<br/><br />Chegou a hora de retomar o que de mais importante aprendemos sobre o tema dessa etapa. Não só retomar, mas também sintetizar, em no máximo 300 caracteres, em formato de texto reflexivo, o que você considera importante registrar a respeito do seu aprendizado sobre o que estudamos.</p>
+						<br />
+						<textarea name="album" id="album-textarea"></textarea>
+						<button type="button" class="btn-geral btn-verde"  onclick="salvarTexto()" id="submitbutton">Responder</button>
+					</div><!-- #frame -->
+
+					<ul class="btns-footer">
+						<li><a class="btn-geral btn-laranja" onclick="parent.iniciarAcao(1, 14, true)">Voltar</a></li>
+						<li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+					</ul><!-- btns-footer -->
+				</div><!-- conteudo -->
+			</section><!-- corpo-interna -->
+		</div><!-- container -->
+    </body>
+</html>

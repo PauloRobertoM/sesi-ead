@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This is a Reload version 2.5.6 SCORM 1.2 Content Package document-->
+<!--Spawned from the Reload Content Package Generator - http://www.reload.ac.uk-->
+<manifest xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2" xmlns:imsmd="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2" identifier="MANIFEST-7E23CEC4C0F0DB2704C39E9E7B566E96" xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <organizations default="ORG-E1997676B73862D0E972CB8F63ED0995">
+    <organization identifier="ORG-E1997676B73862D0E972CB8F63ED0995" structure="hierarchical">
+      <title>Organization</title>
+      <item identifier="ITEM-8FBCDCA4908D7E7805E72F1ABCC2B346" identifierref="RES-D9CDA33517100FB718779A84F35A0117" isvisible="true">
+        <title>Sesi</title>
+      </item>
+      <metadata>
+        <schema>ADL SCORM</schema>
+        <schemaversion>1.2</schemaversion>
+      </metadata>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-D9CDA33517100FB718779A84F35A0117" type="webcontent" href="index.html">
+      <file href="index.html" />
+      <file href="assets/images/topo-interna.jpg" />
+      <file href="assets/images/2a.gif" />
+      <file href="assets/images/.DS_Store" />
+      <file href="assets/images/campanha.jpg" />
+      <file href="assets/images/background-index.jpg" />
+      <file href="assets/images/2d.jpg" />
+      <file href="assets/images/background-seta.png" />
+      <file href="assets/images/background-descricao.png" />
+      <file href="assets/images/2b.jpg" />
+      <file href="assets/images/2c.png" />
+      <file href="assets/images/topo-index.jpg" />
+      <file href="assets/js/game.js" />
+      <file href="assets/js/.DS_Store" />
+      <file href="assets/js/scorm.js" />
+      <file href="assets/js/sweetalert.min.js" />
+      <file href="assets/js/script.js" />
+      <file href="assets/js/owl.carousel.min.js" />
+      <file href="assets/js/bootstrap.min.js" />
+      <file href="assets/js/internas.js" />
+      <file href="assets/js/jquery_old.js" />
+      <file href="assets/js/jquery.js" />
+      <file href="assets/fonts/glyphicons-halflings-regular.woff" />
+      <file href="assets/fonts/glyphicons-halflings-regular.eot" />
+      <file href="assets/fonts/.DS_Store" />
+      <file href="assets/fonts/fontawesome-webfont-v=4.4.0.svg" />
+      <file href="assets/fonts/glyphicons-halflings-regular.woff2" />
+      <file href="assets/fonts/fontawesome-webfont-v=4.4.0.woff" />
+      <file href="assets/fonts/glyphicons-halflings-regular.ttf" />
+      <file href="assets/fonts/fontawesome-webfont-v=4.4.0.woff2" />
+      <file href="assets/fonts/fontawesome-webfont-.eot" />
+      <file href="assets/fonts/fontawesome-webfont-v=4.4.0.ttf" />
+      <file href="assets/fonts/glyphicons-halflings-regular.svg" />
+      <file href="assets/fonts/fontawesome-webfont-v=4.4.0.eot" />
+      <file href="assets/css/bootstrap.min.css" />
+      <file href="assets/css/scorm.css" />
+      <file href="assets/css/.DS_Store" />
+      <file href="assets/css/hover-min.css" />
+      <file href="assets/css/owl.carousel.min.css" />
+      <file href="assets/css/style.css" />
+      <file href="assets/css/sweetalert.css" />
+    </resource>
+  </resources>
+</manifest>
+

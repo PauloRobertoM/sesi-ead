@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<title></title>
+
+		<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,700,900" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+		<link rel='stylesheet' href='../../assets/css/bootstrap.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/hover-min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/owl.carousel.min.css' type='text/css' />
+		<link rel='stylesheet' href='../../assets/css/style.css' type='text/css' />
+
+		<script type='text/javascript' src='../../assets/js/jquery.js'></script>
+		<script type='text/javascript' src='../../assets/js/bootstrap.min.js'></script>
+		<script src="https://use.fontawesome.com/6963733f46.js"></script>
+		<script type='text/javascript' src='../../assets/js/owl.carousel.min.js'></script>
+
+		<link rel='stylesheet' href='../../assets/css/sweetalert.css' type='text/css' />
+		<script src="../../assets/js/sweetalert.min.js"></script>
+		<script type='text/javascript' src='../../assets/js/script.js'></script>
+		<script src="../../assets/js/internas.js"></script>
+		<script>
+			$(document).ready(function () {
+				iniciarPergunta();
+			});
+		</script>
+	</head>
+
+	<body>
+		<div class="container">
+			<header class="header-interna">
+				<h1 class="tituloScorm"></h1>
+			</header><!-- header-interna -->
+
+			<section class="corpo-interna">
+				<div class="titulo-topo"></div>
+				<div class="conteudo">
+					<div id="frame" role="content">
+						<img src="../../assets/images/002_EM_LIN_C1_H1_SA_15.jpg" alt="" style="width: 50%; margin: 0 auto;" class="img-responsive">
+						<h6 class="text-center">Mulher tupi Albert Eckhout 1641 Óleo sobre tela 274 x 163 cm The National Museum of Denmark, Copenhagen</h6>
+						<br />
+						<p>A colonização portuguesa na América deu origem a um dos contatos mais cruéis entre culturas. Os indígenas, com seus idiomas, suas línguas nativas e suas formas de significarem o mundo a partir disso, foram apresentados (muitas vezes, por meio de guerras de “conquista”) à complexidade da Língua Portuguesa. Abaixo, leia o trecho da carta de Pero Vaz de Caminha, considerada como o primeiro texto em português nas terras que viriam a ser o Brasil, depois da colonização portuguesa em parte da América:</p>
+						<br />
+						<p>“[Os portugueses] Mostraram-lhes um papagaio pardo que o Capitão traz consigo; [os índios] tomaram-no logo na mão e acenaram para a terra, como quem diz que os havia ali. Mostraram-lhes um carneiro: não fizeram caso. Mostraram-lhes uma galinha, quase tiveram medo dela: não lhe queriam pôr a mão; e depois a tomaram como que espantados. [...] Resgataram lá por cascavéis e por outras coisinhas de pouco valor, que levavam, papagaios vermelhos, muito grandes e formosos, e dois verdes pequeninos e carapuças de penas verdes, e um pano de penas de muitas cores, maneira de tecido assaz formoso, segundo Vossa Alteza todas estas coisas verá, porque o Capitão vo-las há de mandar, segundo ele disse. [...] Enquanto andávamos nessa mata a cortar lenha, atravessavam alguns papagaios por essas árvores, deles verdes e outros pardos, grandes e pequenos, de maneira que me parece que haverá muitos nesta terra. Porém eu não veria mais que até nove ou dez. Outras aves então não vimos, somente algumas pombas-seixas, e pareceram-me bastante maiores que as de Portugal. [...]”<br/><i class="mini">Disponível em: &lt;www.biblio.com.br/defaultz.asp?link=http://www.biblio.com.br/conteudo/perovazcaminha/carta.htm&gt;. Acesso em: 11 ago. 2018</i></p>
+						<h4 class="question" id="question">Analise o trecho da Carta de Pero Vaz , identifique e assinale a alternativa que lhe parece mais correta:</h4>
+						<ul id="choice-block" class="quiz-cemporcento">
+							<li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">A Carta é, em verdade, seu diário, e não teve qualquer conotação de cunho político na época em que foi escrita, sendo objeto de curiosidade apenas nos dias de hoje;</li>
+							<li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">A língua é algo que não se modifica com o tempo, como a leitura do trecho da Carta de Pero Vaz deixa evidente e claro; (0)</li>
+							<li class="choice choice-box alternativas" data-correto="1" onclick="selecionarAlternativa($(this))">As informações contidas na Carta eram estratégicas para Portugal, interessado em dominar essa porção de terras do recém-descoberto continente americano, ainda pouco explorado, para assim prosseguir realizando o trajeto Portugal-Índia com segurança;</li>
+							<li class="choice choice-box alternativas" data-correto="1" onclick="selecionarAlternativa($(this))">Os interesses contidos no relato de Pero Vaz são majoritariamente comerciais, e como não havia riquezas significativas nas terras descritas pelo escrivão, a Coroa portuguesa não iniciou imediatamente um processo intenso de colonização;</li>
+							<li class="choice choice-box alternativas" data-correto="2" onclick="selecionarAlternativa($(this))">A Carta é reveladora do espanto dos indígenas ao se depararem com os portugueses; o contrário, no entanto, não ocorreu, pois, os portugueses já conheciam relatos acerca daqueles povos que habitavam o território que corresponde ao Brasil de hoje.</li>
+						</ul><!-- quiz-cemporcento -->
+						<button type="button" class="btn-geral btn-verde" id="submitbutton" onclick="responderPergunta()">Responder</button>
+					</div><!-- #frame -->
+
+					<ul class="btns-footer">
+						<li><a class="btn-geral btn-laranja" onclick="parent.iniciarAcao(1, 11, true)">Voltar</a></li>
+						<li><a class="btn-geral btn-amarelo" onclick="parent.finalizarAcao()">Próximo</a></li>
+					</ul><!-- btns-footer -->
+				</div><!-- conteudo -->
+			</section><!-- corpo-interna -->
+		</div><!-- container -->
+	</body>
+</html>

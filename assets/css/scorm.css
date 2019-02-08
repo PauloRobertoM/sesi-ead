@@ -1,0 +1,159 @@
+body{
+    overflow: hidden;
+}
+
+#iframe_interno{
+    width: 100%;
+    height: 100vh;
+    border: none;
+}
+
+.hidden{
+    display: none !important;
+}
+
+.no-bg{
+    background: transparent;
+}
+
+.transition{
+    transition: all 4s ease-in-out;
+}
+
+.w100{
+    width: 100%;
+}
+
+.opacidade{
+    opacity: 0.5;
+}
+
+.tela_preta{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    z-index: 9;
+    height: 100%;
+}
+
+.container-voltar-licao{
+    width: 400px;
+    height: 173px;
+    background: #3b81c1;
+    margin: 0 auto;
+    position: relative;
+    z-index: 9;
+    margin-top: 120px;
+    border: 2px solid #273662;
+}
+.container-voltar-licao p{
+    font-family: 'SanukLF';
+    font-weight: 300;
+    color: #fff;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    line-height: 40px;
+}
+.container-voltar-licao .btns{}
+.container-voltar-licao .btn-sim{
+    width: 50%;
+    float: left;
+    text-align: center;
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'SanukLF';
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    border: 2px solid #273662;
+    padding: 10px;
+    background: #93a2af;
+}
+.container-voltar-licao .btn-nao{
+    width: 50%;
+    float: left;
+    text-align: center;
+    font-family: 'SanukLF';
+    font-weight: 300;
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 24px;
+    border: 2px solid #273662;
+    padding: 10px;
+    background: #93a2af;
+}
+
+
+.telas_interna{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-color: #fff;
+    background-size: 100%;
+    overflow-x: hidden;
+}
+
+.telas{
+    width: 1024px;
+    height: 768px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background-color: #fff;
+    background-size: 126%;
+    background-position: center -69px;
+}
+
+.carregando{
+    width: 1024px;
+    height: 768px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+    background: #fff;
+}
+
+.carregando p{
+    font-size: 15px;
+    color: #a0a1a2;
+    text-align: center;
+    font-weight: 300;
+    font-family: 'SanukLF';
+    margin-top: 25%;
+}
+
+
+.loader {
+    height: 100px;
+    width: 20%;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+}
+
+.loader svg{}
+
+.correto{
+    border: 1px solid #22ff5e !important;
+}
+
+.incorreto{
+    border: 1px solid #f00 !important;
+}
